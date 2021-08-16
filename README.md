@@ -2,4 +2,4 @@
 
 ## **UNDER CONSTRUCTION**
 
-![cone](Web_Visualizations/Images/cone.png)
+![cone](Images/cone.png)
