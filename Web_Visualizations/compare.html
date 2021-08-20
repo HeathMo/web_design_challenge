@@ -31,38 +31,64 @@
                   <li class="nav-item">
                     <a class="nav-link" href="https://github.com/HeathMo/web_design_challenge">GitHub Link</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Plots
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="visuals_1.html">Temperature</a></li>
-                      <li><a class="dropdown-item" href="visuals_2.html">Humidity</a></li>
-                      <li><a class="dropdown-item" href="visuals_3.html">Cloudiness</a></li>
-                      <li><a class="dropdown-item" href="visuals_4.html">Wind Speed</a></li>
-                    </ul>
-                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="Data.html">Data</a>
+                     
+                    <div class="nav-item dropdown">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="visuals_1.html">Temperature</a>
+                          <a class="dropdown-item" href="visuals_2.html">Humidity</a>
+                          <a class="dropdown-item" href="visuals_3.html">Cloudiness</a>
+                          <a class="dropdown-item" href="visuals_4.html">Wind Speed</a>
+                        </div>
+                      </li>
+
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
 
-        <br>  
-        <h1>Comparison of Visualizations</h1>
+        <br>
+        <div class="container content bg-gray"> 
+          <h1>Comparison of Visualizations</h1>
+          <hr>
+          <p>Below are the four plots for weather information from the 'cities.csv'.  Please click to explore further.</p>
 
-        <div>
-
-        <img src="Resources/assets/images/Fig1.png" alt="Visual 1">
-        <img src="Resources/assets/images/Fig2.png" alt="Visual 2">
-        <img src="Resources/assets/images/Fig3.png" alt="Visual 3">
-        <img src="Resources/assets/images/Fig4.png" alt="Visual 4">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center">Latitude vs Max Temperature</h3>
+            <a href="visuals_1.html"><img width="100%" src="Resources/assets/images/Fig1.png"></a>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center">Latitude vs Humidity</h3>
+            <a href="visuals_2.html"><img width="100%" src="Resources/assets/images/Fig2.png"></a>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center">Latitude vs Cloudiness</h3>
+            <a href="visuals_3.html"><img width="100%" src="Resources/assets/images/Fig3.png"></a>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center">Latitude vs Wind Speed</h3>
+            <a href="visuals_4.html"><img width="100%" src="Resources/assets/images/Fig4.png"></a>
+          </div>
 
         </div>
+      </div>
+        <br>
+        <br>
+        <div>
+          <div class="row">
+            <div class="p-3 mb-2 bg-light text-dark">
+              <div class=col col-12 divbtm>Created by Newbie Coder Heather Mott 2021</div>
+            </div>
+          </div>
+        </div>        
 
-        
     </body>
 
     
