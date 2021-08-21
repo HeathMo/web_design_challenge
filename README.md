@@ -5,10 +5,10 @@
 Utilizing what we have learned about html, CSS, and Bootstrap, we were tasked with designing a website to share the visualizations from various analysis in respect to latitude.
 
 As a part of the website design, seven pages were required:
-1. Landing Page
-2. Four Visualization Pages
-3. Comparison Page
-4. Data Page
+1. [Landing Page](https://github.com/HeathMo/web_design_challenge/blob/main/Web_Visualizations/intro.html)
+2. [Four Visualization Pages](https://github.com/HeathMo/web_design_challenge/blob/main/Web_Visualizations/visuals_1.html)
+3. [Comparison Page](https://github.com/HeathMo/web_design_challenge/blob/main/Web_Visualizations/compare.html)
+4. [Data Page](https://github.com/HeathMo/web_design_challenge/blob/main/Web_Visualizations/data.html)
 
 ## **Pages**
 
