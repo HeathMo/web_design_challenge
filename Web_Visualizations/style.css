@@ -14,11 +14,6 @@ h1{
   margin: 10px, 0px, 0px, 10px;
 }
 
-h3{
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
 
 p{
   color: black;
@@ -47,3 +42,7 @@ body {
 }
 
 @media(max-width:767px){}
+
+.navbar{
+  padding: inherit;
+}
