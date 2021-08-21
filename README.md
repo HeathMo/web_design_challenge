@@ -49,9 +49,4 @@ Using Jupyter Notebook, I converted the csv to an html file in order to incorpor
 *Image 7: Data Page*
 ![data](Web_Visualizations/Images/data_table.png)
 
-
-## **STILL UNDER CONSTRUCTION**
-
-ETA for completion = Friday.
-
-![cone](Web_Visualizations/Images/cone.png)
+**It may not be perfect but it was fun!**
